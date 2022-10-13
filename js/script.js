@@ -6,7 +6,8 @@ for( let i=1;i<=100; i++){
 
   if(( i % 3 == 0) && (i % 5 == 0)){
     box.classList.add('red');
-    console.log('fizbuz');
+    box.innerHTML = ('fix');
+    console.log('fixbuz');
 
   }else if(i % 3 == 0){
     box.classList.add('green');
@@ -22,6 +23,7 @@ for( let i=1;i<=100; i++){
 
   box.innerHTML = i;
   container.append(box);
+
 
 
 }
